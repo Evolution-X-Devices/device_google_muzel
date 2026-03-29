@@ -19,6 +19,8 @@ endif
 include device/google/laguna/common.mk
 
 # Overlays
+DEVICE_PACKAGE_OVERLAYS += device/google/muzel/overlay-evolution
+
 PRODUCT_PACKAGES += \
     FrameworkResOverlayProductMuzel \
     FrameworkResOverlayVendorMuzel \
