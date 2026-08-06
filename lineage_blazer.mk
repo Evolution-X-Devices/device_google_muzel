@@ -24,9 +24,9 @@ TARGET_SCREEN_HEIGHT := 2856
 TARGET_SCREEN_WIDTH := 1280
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="blazer-user 17 CP2A.260705.006 15641320 release-keys" \
-    BuildFingerprint=google/blazer/blazer:17/CP2A.260705.006/15641320:user/release-keys \
-    BuildSystemFingerprint=google/generic_system_google/generic:17/CP2A.260705.006/15641320:user/release-keys \
+    BuildDesc="blazer-user 17 CP2A.260805.005 15828068 release-keys" \
+    BuildFingerprint=google/blazer/blazer:17/CP2A.260805.005/15828068:user/release-keys \
+    BuildSystemFingerprint=google/generic_system_google/generic:17/CP2A.260805.005/15828068:user/release-keys \
     DeviceProduct=$(DEVICE_CODENAME)
 
 $(call inherit-product, $(VENDOR_PATH)/$(DEVICE_CODENAME)-vendor.mk)

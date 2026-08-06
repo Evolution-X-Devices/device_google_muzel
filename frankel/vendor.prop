@@ -28,7 +28,7 @@ debug.sf.productionize_readback_screenshot=1
 ro.surface_flinger.set_idle_timer_ms=1000
 
 # SVN
-ro.vendor.build.svn=41
+ro.vendor.build.svn=45
 
 # Touch
 ro.vendor.touch.gti0.resample_latency.enabled=true
